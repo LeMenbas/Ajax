@@ -30,3 +30,15 @@ const reponse = document.getElementById('xhr-response')
 btn.addEventListener('click',function() {
     reponse.textContent = " je suis rajouter via le button"
 })
+
+
+// corrigé 2 
+
+document.addEventListener("DOMContentLoaded",function() {
+    document.getElementById('xhr-button').addEventListener('click', onClickXHRButton)
+});
+
+function onClickXHRButton() {
+    let container = document.getElementById("xhr-response")
+    container.innerHTML = "Ok je vois !";
+}
