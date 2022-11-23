@@ -1,0 +1,17 @@
+[
+    {
+        "titre": "Starcraft 2",
+        "editor" : "BLIZZARD" ,
+        "catégorie": "str"
+    },
+    {
+        "titre": "call of duty",
+        "editor" : "activision" ,
+        "catégorie": "fps"
+    },
+    {
+        "titre": "fifa",
+        "editor" : "origin" ,
+        "catégorie": "foot"
+    }
+]
